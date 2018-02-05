@@ -5,7 +5,7 @@
 
 ## 安装
 ```shell
-$ git clone https://github.com/sayidly/air-pollution-notifier-aqicn
+$ git clone https://github.com/sayidly/pm25
 $ npm install / yarn
 ```
 ## 配置
@@ -41,7 +41,7 @@ $ cp config.json.template config.json
 
 持久运行（需另行配置 pm2 或类似工具）
 ```
-pm2 start index.js --watch --name 'air-pollution-notifier-aqicn'
+pm2 start index.js --watch --name 'pm25'
 ```
 ### 鸣谢
 程序升级来自
